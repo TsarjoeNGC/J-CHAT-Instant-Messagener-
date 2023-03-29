@@ -6,16 +6,14 @@ import Filter from 'bad-words'
 import { ref, onUnmounted, computed } from 'vue'
 
 firebase.initializeApp({
-  apiKey: 'AIzaSyCjcSOURUxLfkrW8ZPvqyg-34E6_-DN9pA',
-  authDomain: 'instant-messagings.firebaseapp.com',
-  databaseURL: 'https://instant-messagings-default-rtdb.firebaseio.com',
-  projectId: 'instant-messagings',
-  storageBucket: 'instant-messagings.appspot.com',
-  messagingSenderId: '611905880674',
-  appId: '1:611905880674:web:aed5862d9612cb9757c73b',
-  measurementId: 'G-XCWP37LK52'
-})
-
+  apiKey: "AIzaSyAEmR-l4mnwOPfxP0AcVi-DxU8KZEJG0EY",
+  authDomain: "jchat-app-89e02.firebaseapp.com",
+  databaseURL: "https://jchat-app-89e02-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "jchat-app-89e02",
+  storageBucket: "jchat-app-89e02.appspot.com",
+  messagingSenderId: "615846579915",
+  appId: "1:615846579915:web:01e24cd8c3ca2087ca554e",
+  measurementId: "G-7VX1XLPHTD"})
 const auth = firebase.auth()
 
 export function useAuth() {
